@@ -13,7 +13,7 @@ Variations on the Snack Bar Project have been part of Java Education since Java 
 
 Classes should include:
 
-### Snack
+✔### Snack
 
 Snack has fields (so knows)
 
@@ -24,7 +24,7 @@ Snack has fields (so knows)
 - cost
 - vending machine id
 
-Snack has methods (so can)
+✔Snack has methods (so can)
 
 - get id
 - set and get name
@@ -35,7 +35,7 @@ Snack has methods (so can)
 - buy snack when given how many to buy
 - get total cost given a quantity
 
-### VendingMachine
+✔### VendingMachine
 
 Vending machine has fields (so knows)
 
@@ -156,9 +156,9 @@ Total Cost: $55.00
 
 Create the classes mentioned above and then instantiate these objects from those classes
 
-- [ ] Snack
-- [ ] VendingMachine
-- [ ] Customer
+- [x] Snack
+- [x] VendingMachine
+- [x] Customer
 
 - [ ] Instantiate 2 customers
 
