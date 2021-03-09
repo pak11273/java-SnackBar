@@ -1,13 +1,16 @@
+package snackApp;
+
 public class Snack
 {
-    public int maxId = 0;
-    public int id;
-    public String name;
-    public int qty;
-    public double cost;
-    public int vendingId;
+    private int maxId = 0;
+    private int id;
+    private String name;
+    private int qty;
+    private double cost;
+    private int vendingId;
+    private double total = 0;
 
-    public Snack(int id, String name, int qty, double cost, int vendingId)
+    public Snack(String name, int qty, double cost, int vendingId)
     {
         id = maxId++;
         this.name = name;
@@ -51,24 +54,25 @@ public class Snack
         return this.vendingId;
     }
 
-    public int getQuantity(int qty)
+    public int getQuantity()
     {
         return this.qty;
     }
 
     public int addQuantity(int num)
     {
-        return qty + num;
+        return qty = qty + num;
     }
 
-    public int buySnack(int qty)
+    public void buySnack(int qty)
     {
-        return qty;
+        this.qty -= qty;
+        this.total = total - (cost * qty);
     }
 
     public double getTotal()
     {
-        return qty * cost;
+        return total;
     }
 
 }

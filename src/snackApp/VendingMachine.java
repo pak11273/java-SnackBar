@@ -1,9 +1,11 @@
+package snackApp;
+
 public class VendingMachine
 {
 
-   int maxId = 0;
-   int id;
-   String name;
+   private int maxId = 0;
+   private int id;
+   private String name;
 
    public VendingMachine(String name)
    {
