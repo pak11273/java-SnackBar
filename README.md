@@ -50,14 +50,14 @@ Vending Machine has methods (so can)
 
 ### Customer
 
-Customer has fields (so knows)
+✔Customer has fields (so knows)
 
 - maxId - keep track of last used customer id
 - id - automatically generated field
 - name
 - cash on hand
 
-Customer has methods (so can)
+✔Customer has methods (so can)
 
 - get id
 - set and get name
@@ -160,42 +160,42 @@ Create the classes mentioned above and then instantiate these objects from those
 - [x] VendingMachine
 - [x] Customer
 
-- [ ] Instantiate 2 customers
+- [x] Instantiate 2 customers
 
-  - [ ] Jane with $45.25
-  - [ ] Bob with $33.14
+  - [x] Jane with $45.25
+  - [x] Bob with $33.14
 
-- [ ] Instantiate 3 Vending Machines
+- [x] Instantiate 3 Vending Machines
 
-  - [ ] Food
-  - [ ] Drink
-  - [ ] Office
+  - [x] Food
+  - [x] Drink
+  - [x] Office
 
-- [ ] Instantiate 5 snacks
-  - [ ] In Vending Machine Food
-    - [ ] 36 Chips at $1.75
-    - [ ] 36 Chocolate Bar at $1.00
-    - [ ] 30 Pretzel at $2.00
-  - [ ] In Vending Machine Drink
-    - [ ] 24 Soda at $2.50
-    - [ ] 20 Water at $2.75
+- [x] Instantiate 5 snacks
+  - [x] In Vending Machine Food
+    - [x] 36 Chips at $1.75
+    - [x] 36 Chocolate Bar at $1.00
+    - [x] 30 Pretzel at $2.00
+  - [x] In Vending Machine Drink
+    - [x] 24 Soda at $2.50
+    - [x] 20 Water at $2.75
 
 ### Processing
 
-- [ ] Customer 1 (Jane) buys 3 of snack 4 (Soda).
-  - [ ] Print Customer 1 (Jane) Cash on hand.
-  - [ ] Print quantity of snack 4 (Soda).
-- [ ] Customer 1 (Jane) buys 1 of snack 3 (Pretzel).
-  - [ ] Print Customer 1 (Jane) Cash on hand.
-  - [ ] Print quantity of snack 3 (Pretzel).
-- [ ] Customer 2 (Bob) buys 2 of snack 4 (Soda).
-  - [ ] Print Customer 2 (Bob) Cash on Hand.
-  - [ ] Print quantity of snack 4 (Soda).
-- [ ] Customer 1 (Jane) finds $10.
-  - [ ] Print Customer 1 (Jane) Cash on Hand.
-- [ ] Customer 1 (Jane) buys 1 of snack 2 (Chocolate Bar).
-  - [ ] Print Customer 1 (Jane) Cash on Hand.
-  - [ ] Print quantity of snack 2 (Chocolate Bar).
+- [x] Customer 1 (Jane) buys 3 of snack 4 (Soda).
+  - [x] Print Customer 1 (Jane) Cash on hand. // 45.25 - (3 \* 1.75) = 40.00
+  - [x] Print quantity of snack 4 (Soda). // 33
+- [x] Customer 1 (Jane) buys 1 of snack 3 (Pretzel).
+  - [x] Print Customer 1 (Jane) Cash on hand. // 40 - 6 = 34.00
+  - [x] Print quantity of snack 3 (Pretzel). // 27
+- [x] Customer 2 (Bob) buys 2 of snack 4 (Soda). // 3.5
+  - [x] Print Customer 2 (Bob) Cash on Hand. // 29.64
+  - [x] Print quantity of snack 4 (Soda). // 31
+- [x] Customer 1 (Jane) finds $10.
+  - [x] Print Customer 1 (Jane) Cash on Hand. //44
+- [x] Customer 1 (Jane) buys 1 of snack 2 (Chocolate Bar).
+  - [x] Print Customer 1 (Jane) Cash on Hand.
+  - [x] Print quantity of snack 2 (Chocolate Bar).
 - [ ] Add 12 more items to snack 3 (Pretzel).
   - [ ] Print quantity of snack 3 (Pretzel).
 - [ ] Customer 2 (Bob) buys 3 of snack 3 (Pretzel).
