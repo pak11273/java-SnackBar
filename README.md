@@ -2,10 +2,10 @@
 
 A student that completes this project shows that they can:
 
-* Understand what makes Java a programming language worth studying
-* Explain the basic concept of Object Oriented Programming and how they relate to Java
-* Create and manipulate the base Java types which include Boolean, byte, char (including Strings), short, int, long, float, and double
-* Craft multiple Java Classes which include comments, constructors, static and instance variables (fields), accessors, public and private methods and instantiate and use Objects of these classes
+- Understand what makes Java a programming language worth studying
+- Explain the basic concept of Object Oriented Programming and how they relate to Java
+- Create and manipulate the base Java types which include Boolean, byte, char (including Strings), short, int, long, float, and double
+- Craft multiple Java Classes which include comments, constructors, static and instance variables (fields), accessors, public and private methods and instantiate and use Objects of these classes
 
 ## Introduction
 
@@ -13,57 +13,57 @@ Variations on the Snack Bar Project have been part of Java Education since Java 
 
 Classes should include:
 
-### Snack
+✔### Snack
 
 Snack has fields (so knows)
 
-* maxId - keep track of last used snack id
-* id - automatically generated field
-* name
-* quantity
-* cost
-* vending machine id
+- maxId - keep track of last used snack id
+- id - automatically generated field
+- name
+- quantity
+- cost
+- vending machine id
 
-Snack has methods (so can)
+✔Snack has methods (so can)
 
-* get id
-* set and get name
-* set and get cost
-* set and get vending machine id
-* get quantity
-* add quantity when given how many to add
-* buy snack when given how many to buy
-* get total cost given a quantity
+- get id
+- set and get name
+- set and get cost
+- set and get vending machine id
+- get quantity
+- add quantity when given how many to add
+- buy snack when given how many to buy
+- get total cost given a quantity
 
-### VendingMachine
+✔### VendingMachine
 
 Vending machine has fields (so knows)
 
-* maxId - keep track of last used vending machine id
-* id - automatically generated field
-* name
+- maxId - keep track of last used vending machine id
+- id - automatically generated field
+- name
 
 Vending Machine has methods (so can)
 
-* get id
-* set and get name
+- get id
+- set and get name
 
 ### Customer
 
-Customer has fields (so knows)
+✔Customer has fields (so knows)
 
-* maxId - keep track of last used customer id
-* id - automatically generated field
-* name
-* cash on hand
+- maxId - keep track of last used customer id
+- id - automatically generated field
+- name
+- cash on hand
 
-Customer has methods (so can)
+✔Customer has methods (so can)
 
-* get id
-* set and get name
-* add cash to cash on hand
-* get cash on hand
-* buy snacks. Given the total cost of the snacks to be purchased, reduce the cash on hand by that amount
+- get id
+- set and get name
+- add cash to cash on hand
+- get cash on hand
+- buy snacks. Given the total cost of the snacks to be purchased, reduce the cash on hand by that amount
 
 ## Instructions
 
@@ -91,7 +91,6 @@ Quantity of Pretzel is 41
 Bob cash on hand 22.14
 Quantity of Pretzel is 38
 ```
-
 
 ### Task 3: Stretch Goals
 
@@ -147,9 +146,9 @@ Total Cost: $55.00
 
 ## Instructions (Part B)
 
-* [ ] Please fork and clone this repository. This repository does not have a starter project, so create one inside of the cloned repository folder. Regularly commit and push your code as appropriate.
-* [ ] When you are done, create a Pull Request (PR)
-* [ ] To submit the assignment, paste the URL of your branch into the assignment module in Canvas.
+- [x] Please fork and clone this repository. This repository does not have a starter project, so create one inside of the cloned repository folder. Regularly commit and push your code as appropriate.
+- [x] When you are done, create a Pull Request (PR)
+- [x] To submit the assignment, paste the URL of your branch into the assignment module in Canvas.
 
 ### Task 2: MVP
 
@@ -157,58 +156,60 @@ Total Cost: $55.00
 
 Create the classes mentioned above and then instantiate these objects from those classes
 
-* [ ] Snack
-* [ ] VendingMachine
-* [ ] Customer
+- [x] Snack
+- [x] VendingMachine
+- [x] Customer
 
-* [ ] Instantiate 2 customers
-  * [ ] Jane with $45.25
-  * [ ] Bob with $33.14
+- [x] Instantiate 2 customers
 
-* [ ] Instantiate 3 Vending Machines
-  * [ ] Food
-  * [ ] Drink
-  * [ ] Office
+  - [x] Jane with $45.25
+  - [x] Bob with $33.14
 
-* [ ] Instantiate 5 snacks
-  * [ ] In Vending Machine Food
-    * [ ] 36 Chips at $1.75
-    * [ ] 36 Chocolate Bar at $1.00
-    * [ ] 30 Pretzel at $2.00
-  * [ ] In Vending Machine Drink
-    * [ ] 24 Soda at $2.50
-    * [ ] 20 Water at $2.75
+- [x] Instantiate 3 Vending Machines
+
+  - [x] Food
+  - [x] Drink
+  - [x] Office
+
+- [x] Instantiate 5 snacks
+  - [x] In Vending Machine Food
+    - [x] 36 Chips at $1.75
+    - [x] 36 Chocolate Bar at $1.00
+    - [x] 30 Pretzel at $2.00
+  - [x] In Vending Machine Drink
+    - [x] 24 Soda at $2.50
+    - [x] 20 Water at $2.75
 
 ### Processing
 
-* [ ] Customer 1 (Jane) buys 3 of snack 4 (Soda).
-  * [ ] Print Customer 1 (Jane) Cash on hand.
-  * [ ] Print quantity of snack 4 (Soda).
-* [ ] Customer 1 (Jane) buys 1 of snack 3 (Pretzel).
-  * [ ] Print Customer 1 (Jane) Cash on hand.
-  * [ ] Print quantity of snack 3 (Pretzel).
-* [ ] Customer 2 (Bob) buys 2 of snack 4 (Soda).
-  * [ ] Print Customer 2 (Bob) Cash on Hand.
-  * [ ] Print quantity of snack 4 (Soda).
-* [ ] Customer 1 (Jane) finds $10.
-  * [ ] Print Customer 1 (Jane) Cash on Hand.
-* [ ] Customer 1 (Jane) buys 1 of snack 2 (Chocolate Bar).
-  * [ ] Print Customer 1 (Jane) Cash on Hand.
-  * [ ] Print quantity of snack 2 (Chocolate Bar).
-* [ ] Add 12 more items to snack 3 (Pretzel).
-  * [ ] Print quantity of snack 3 (Pretzel).
-* [ ] Customer 2 (Bob) buys 3 of snack 3 (Pretzel).
-  * [ ] Print Customer 2 (Bob) Cash on hand.
-  * [ ] Print quantity of snack 3 (Pretzel).
-  
+- [x] Customer 1 (Jane) buys 3 of snack 4 (Soda).
+  - [x] Print Customer 1 (Jane) Cash on hand. // 45.25 - (3 \* 1.75) = 40.00
+  - [x] Print quantity of snack 4 (Soda). // 33
+- [x] Customer 1 (Jane) buys 1 of snack 3 (Pretzel).
+  - [x] Print Customer 1 (Jane) Cash on hand. // 40 - 6 = 34.00
+  - [x] Print quantity of snack 3 (Pretzel). // 27
+- [x] Customer 2 (Bob) buys 2 of snack 4 (Soda). // 3.5
+  - [x] Print Customer 2 (Bob) Cash on Hand. // 29.64
+  - [x] Print quantity of snack 4 (Soda). // 31
+- [x] Customer 1 (Jane) finds $10.
+  - [x] Print Customer 1 (Jane) Cash on Hand. //44
+- [x] Customer 1 (Jane) buys 1 of snack 2 (Chocolate Bar).
+  - [x] Print Customer 1 (Jane) Cash on Hand.
+  - [x] Print quantity of snack 2 (Chocolate Bar).
+- [ ] Add 12 more items to snack 3 (Pretzel).
+  - [ ] Print quantity of snack 3 (Pretzel).
+- [ ] Customer 2 (Bob) buys 3 of snack 3 (Pretzel).
+  - [ ] Print Customer 2 (Bob) Cash on hand.
+  - [ ] Print quantity of snack 3 (Pretzel).
+
 ### Task 3: Stretch Goals
 
-* [ ] Display each snack with
-  * [ ] Name
-  * [ ] Vending Machine Name
-  * [ ] Quantity on hand
-  * [ ] Total cost of all of the quantities of this snack on hand
-* [ ] Format all dollar amount like $1,234.56
-  * [ ] Starts with a dollar sign
-  * [ ] comma separating group of 3 numbers
-  * [ ] rounded to the nearest cents, hundredths place
+- [ ] Display each snack with
+  - [ ] Name
+  - [ ] Vending Machine Name
+  - [ ] Quantity on hand
+  - [ ] Total cost of all of the quantities of this snack on hand
+- [ ] Format all dollar amount like $1,234.56
+  - [ ] Starts with a dollar sign
+  - [ ] comma separating group of 3 numbers
+  - [ ] rounded to the nearest cents, hundredths place
